@@ -29,7 +29,7 @@ def try1():
     body_type=body1(a)
 
   elif budget==2:
-    a=int(input('''**************************
+    a=int(input('''***************************
   Enter Body Type(Enter a number):
   1. Compact SUV
   2. Hatchback
