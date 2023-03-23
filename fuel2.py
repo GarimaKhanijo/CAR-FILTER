@@ -4,7 +4,7 @@ def fuel5(n):
   else:
     print("OPPS!! We don't have that category.\nPlease choose again.")
     x=int(input('''**************************
-  Enter Fuel Type:
+  Enter Fuel Type(Enter a number):
   1. Electric
 **************************
 '''))
