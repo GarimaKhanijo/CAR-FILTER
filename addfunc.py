@@ -3,6 +3,8 @@
 
 # In[ ]:
 
+# Takes input from the user about the details of the car and adds it to the existing data.
+
 
 def add(d,output_d):
   global budget,fuel_type,body_type,transmission
