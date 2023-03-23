@@ -3,9 +3,6 @@
 
 # In[ ]:
 
-# Takes input from the user about the details of the car and adds it to the existing data.
-
-
 def add(d,output_d):
   global budget,fuel_type,body_type,transmission
   a=input("Model Name(Enter a string): ")
@@ -20,5 +17,6 @@ def add(d,output_d):
   output_d[a]=[b,str(c)]
   print("\n*****Data has been added*****\n")
   
-  
+  # Takes input from the user about the details of the car and adds it to the existing data.
+
 
