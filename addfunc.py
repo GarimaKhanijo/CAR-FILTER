@@ -3,7 +3,6 @@
 
 # In[ ]:
 
-
 def add(d,output_d):
   global budget,fuel_type,body_type,transmission
   a=input("Model Name(Enter a string): ")
@@ -16,7 +15,8 @@ def add(d,output_d):
   filter_4=filter_3[fuel_type]
   filter_4.append(a)
   output_d[a]=[b,str(c)]
-  print("\nData has been added.\n")
+  print("\n*****Data has been added*****\n")
   
-  
+  # Takes input from the user about the details of the car and adds it to the existing data.
+
 
