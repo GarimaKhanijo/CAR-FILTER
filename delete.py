@@ -14,5 +14,5 @@ def delete(d,output_d):
   filter_4=filter_3[fuel_type]
   filter_4.remove(a)
   del output_d[a]
-  print("\n*****Data has been deleted*****\n")
+  print("\n*****Data has been deleted.*****\n")
 
