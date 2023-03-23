@@ -15,10 +15,10 @@ def fuel6(n):
     return "diesel"
   else:
     print("OPPS!! We don't have that category.\nPlease choose again.")
-    x=int(input('''**************************
+    x=int(input('''****************************
   Enter Fuel Type(Enter a number):
   1. Diesel
-**************************
+****************************
 '''))
     return fuel6(x)
 
