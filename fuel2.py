@@ -29,11 +29,11 @@ def fuel7(n):
     return "cng"
   else:
     print("OPPS!! We don't have that category.\nPlease choose again.")
-    x=int(input('''****************************
+    x=int(input('''**************************
   Enter Fuel Type(Enter a number):
   1. Petrol
   2. CNG
-****************************
+**************************
 '''))
     return fuel7(x)
 
@@ -48,13 +48,13 @@ def fuel8(n):
     return "cng"
   else:
     print("OPPS!! We don't have that category.\nPlease choose again.")
-    x=int(input('''**************************
+    x=int(input('''************************
   Enter Fuel Type(Enter a number):
   1. Diesel
   2. Electric
   3. Petrol
   4. CNG
-**************************
+************************
 '''))
     return fuel8(x)
 
